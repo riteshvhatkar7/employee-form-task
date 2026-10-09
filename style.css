@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 230, 230);
+    margin: 30px;
+}
+
+.container {
+  
+    width: 600px;
+    max-width: 95%;
+    margin: 5%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+
+.id, .name, .role, .salary {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+button {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 100, 0);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+td {
+    background-color: rgb(240, 255, 240);
+    color: black;
+}
